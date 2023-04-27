@@ -1,10 +1,12 @@
 import React from "react";
+import "./Navbar.css";
+import logo from "../images/logo.png";
 
 export default function Navbar() {
   return (
     <nav class="nav">
       <div class="nav-logo">
-        <img src="logo.png" alt="logo" />
+        <img src={logo} alt="logo" />
       </div>
       <div class="nav-item">
         <ul>
