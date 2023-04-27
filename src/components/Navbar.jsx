@@ -4,11 +4,11 @@ import logo from "../images/logo.png";
 
 export default function Navbar() {
   return (
-    <nav class="nav">
-      <div class="nav-logo">
-        <img src={logo} alt="logo" />
+    <nav className="nav">
+      <div className="nav-logo">
+        <img src={logo} alt="logo" width="50px" />
       </div>
-      <div class="nav-item">
+      <div className="nav-item">
         <ul>
           <li>
             <a href="##">Home</a>
@@ -23,17 +23,6 @@ export default function Navbar() {
             <a href="##">Chat</a>
           </li>
         </ul>
-      </div>
-      <div class="text">
-        <h1>Sale 20% Off</h1>
-        <h3>On Everything</h3>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque sed
-          <br></br>
-          corporis distinctio provident non accusamus quidem iusto at quaerat
-          sint?
-        </p>
-        <button>Shop Now</button>
       </div>
     </nav>
   );

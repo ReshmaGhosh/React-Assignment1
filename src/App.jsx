@@ -1,13 +1,12 @@
 import "./App.css";
-import image1 from "./images/skincare.avif";
 
 import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 
 function App() {
   return (
     <div className="App">
-      <div className="bg"></div>
-
+      <Home />
       <Navbar />
     </div>
   );
